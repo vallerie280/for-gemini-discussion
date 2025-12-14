@@ -1,0 +1,134 @@
+.home-container {
+    padding: 40px 0;
+}
+
+.welcome-banner {
+    background-color: var(--navy);
+    padding: 30px;
+    border-radius: 8px;
+    margin-bottom: 40px;
+    border-left: 5px solid var(--accent-blue);
+}
+
+.welcome-banner h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.welcome-banner p {
+    font-size: 1.1rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.featured-section {
+    margin-bottom: 40px;
+}
+
+.featured-section h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: var(--text-light);
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.product-card {
+    background-color: var(--navy);
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.card-details {
+    padding: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: var(--accent-blue);
+}
+
+.vendor-name {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.1rem;
+    color: #FFC107;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.btn-detail {
+    background-color: #5A6268;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    display: inline-block;
+    width: 100%;
+    transition: background-color 0.2s;
+}
+
+.btn-detail:hover {
+    background-color: #495057;
+}
+
+.quick-links h2 {
+    text-align: center;
+    color: var(--text-light);
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+
+.link-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.link-card {
+    background-color: var(--navy);
+    padding: 25px;
+    border-radius: 8px;
+    border: 1px solid var(--accent-blue);
+    display: block;
+    color: var(--text-light);
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.link-card:hover {
+    background-color: #1a3047;
+    transform: scale(1.02);
+}
+
+.link-card h3 {
+    margin-bottom: 10px;
+    color: var(--accent-blue);
+}
+
+.link-card p {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}

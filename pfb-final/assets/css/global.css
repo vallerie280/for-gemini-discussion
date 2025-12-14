@@ -1,0 +1,109 @@
+:root {
+    --dark-blue: #0A192F; 
+    --navy: #1C2E4A;
+    --darker-navy: #0B192E;
+    --accent-blue: #00BCD4;
+    --text-light: #F0F8FF; 
+    --text-muted: #8892B0;
+    --error-red: #E74C3C;
+    --success-green: #2ECC71;
+    --yellow-gold: #FFC107; 
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: var(--dark-blue);
+    color: var(--text-light);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-blue);
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: white;
+}
+
+.navbar {
+    background-color: var(--navy);
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links, .user-controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-link {
+    color: var(--text-light);
+    font-weight: 500;
+}
+
+.nav-link.active {
+    color: var(--accent-blue);
+}
+
+.btn {
+    padding: 8px 15px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.2s;
+}
+
+.btn-login {
+    color: var(--accent-blue);
+}
+
+.btn-register {
+    color: var(--accent-blue);
+}
+
+.logout-link {
+    color: var(--error-red);
+}
+
+.user-greeting {
+    color: var(--accent-blue);
+    font-weight: 600;
+}
+
+.footer {
+    background-color: var(--navy);
+    color: var(--text-muted);
+    text-align: center;
+    padding: 20px 0;
+    margin-top: auto;
+    font-size: 0.9rem;
+}

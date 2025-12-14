@@ -1,0 +1,40 @@
+.role-badge {
+    padding: 3px 8px;
+    border-radius: 12px;
+    font-size: 0.75rem;
+    font-weight: bold;
+    color: var(--dark-blue);
+    text-transform: uppercase;
+}
+
+.role-admin {
+    background-color: #FFC107; 
+}
+
+.role-member {
+    background-color: var(--accent-blue); 
+}
+
+.role-guest {
+    background-color: #6C757D; 
+}
+
+.current-admin-row {
+    background-color: #3b2a00 !important;
+    border-left: 5px solid #FFC107;
+}
+
+.action-denied {
+    font-style: italic;
+    color: #FFC107;
+    font-size: 0.85rem;
+    padding: 5px 10px;
+}
+
+.data-table th, .data-table td {
+    vertical-align: middle;
+}
+
+.action-cells {
+    white-space: nowrap; 
+}

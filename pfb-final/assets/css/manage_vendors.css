@@ -1,0 +1,108 @@
+.manage-container {
+    padding: 30px 0;
+}
+
+.action-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.2s;
+    display: inline-block;
+}
+
+.btn-primary {
+    background-color: var(--accent-blue);
+    color: var(--dark-blue);
+}
+
+.btn-primary:hover {
+    background-color: #0A8B9C;
+}
+
+.btn-small {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    margin: 0 5px;
+}
+
+.btn-edit {
+    background-color: #FFC107; 
+    color: var(--dark-blue);
+}
+
+.btn-edit:hover {
+    background-color: #E0A800;
+}
+
+.btn-delete {
+    background-color: var(--accent-red);
+    color: white;
+}
+
+.btn-delete:hover {
+    background-color: #C82333;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.data-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--navy);
+}
+
+.data-table th, .data-table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.data-table th {
+    background-color: var(--darker-navy);
+    color: var(--accent-blue);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+}
+
+.data-table tbody tr:hover {
+    background-color: #1a3047;
+}
+
+.action-cells {
+    white-space: nowrap; 
+}
+
+.no-data {
+    text-align: center;
+    padding: 30px;
+    background-color: var(--navy);
+    border-radius: 5px;
+}
+
+.alert {
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.alert-success {
+    background-color: #28a745; 
+    color: white;
+}
+
+.alert-error {
+    background-color: var(--accent-red); 
+    color: white;
+}
